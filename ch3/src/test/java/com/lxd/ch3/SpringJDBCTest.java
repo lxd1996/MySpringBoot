@@ -66,4 +66,10 @@ public class SpringJDBCTest {
 
     }
 
+    @Test
+    public void test4(){
+        Teacher name = tcrud.findTeacherByNameAndId("name", "9999");
+        System.out.println(name);
+    }
+
 }

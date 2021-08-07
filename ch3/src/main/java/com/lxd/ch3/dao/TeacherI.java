@@ -12,4 +12,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface TeacherI extends CrudRepository<Teacher,String> {
 
+    public Teacher findTeacherByNameAndId(String name, String id);
 }

@@ -3,17 +3,15 @@ package com.lxd.ch3.model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import lombok.AccessLevel;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
-import lombok.ToString;
+
+import lombok.*;
 
 @Data
 @RequiredArgsConstructor
 @NoArgsConstructor(access=AccessLevel.PRIVATE, force=true)
 @Entity
 @ToString
+@AllArgsConstructor
 public class Teacher {
   
   @Id

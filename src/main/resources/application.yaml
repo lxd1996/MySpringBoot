@@ -1,5 +1,5 @@
 spring:
   redis:
     port: 6380
-    password:
+    password: root
     host: 47.106.197.48
