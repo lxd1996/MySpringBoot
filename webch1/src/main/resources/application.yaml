@@ -1,0 +1,13 @@
+server:
+  port: 9090
+
+spring:
+  elasticsearch:
+    rest:
+      uris: localhost:9200
+
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://47.106.197.48:3306/bbs?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
